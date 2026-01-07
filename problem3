@@ -1,0 +1,6 @@
+print("\n Hostel room allocation")
+for i in range(1, 3):
+    ID = input("Student id: ")
+    print(f"ROOM {i} - {ID}")
+print("No of rooms available :0")
+print("NO ROOM IS AVAILABLE")
