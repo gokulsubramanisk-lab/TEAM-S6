@@ -1,5 +1,4 @@
 expenses = {}
-
 s = input()
 if s == "EXIT":
     break
@@ -18,7 +17,6 @@ else:
     a = s.split()
     amt = int(a[1])
     cat = a[2]
-
     if cat in expenses:
         expenses[cat] += amt
     else:
