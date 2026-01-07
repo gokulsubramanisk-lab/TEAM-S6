@@ -8,5 +8,4 @@ if(percent>=75):
 else:
     print("Status:Not Eligible")
     remain=((75-percent)*Tot)/100
-
     print("additional classes required",remain)
