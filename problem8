@@ -1,0 +1,6 @@
+n = int(input("Enter number of students: "))
+print("\nSeating Arrangement:")
+for i in range(1, n + 1):
+    name = input("Student name: ")
+    dept = input("Department: ")
+    print(f"Seat {i} - {name} ({dept})")
