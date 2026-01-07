@@ -1,0 +1,16 @@
+stdid=input("Enter student id")
+ed=int(input("enter the expiry mentioned in the buspass"))
+fy=int(input("Enter starting year"))
+ty=int(input("Enter end year"))
+if(ed==fy|ed==ty):
+    print("status:valid")
+else:
+    print("status:invalid")
+    print("you have to renew")
+    v=int(input("if yes type 1 or no type 0"))
+    if(v==1):
+        renew=2026
+        ed=renew
+        print("YOUR bus pass is renewed for the year",ed)
+    else:
+        print("Thank you!")
