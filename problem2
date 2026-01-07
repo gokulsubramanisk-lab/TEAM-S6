@@ -1,6 +1,6 @@
 print("\t\tAttendance shortage Calculator")
-Tot=int(input("Enter total no.of classes"))
-att=int(input("Enter no.of classes attended"))
+Tot=float(input("Enter total no.of classes"))
+att=float(input("Enter no.of classes attended"))
 percent=(att/Tot)*100
 print("ATTENDANCE PERCENTAGE:",percent)
 if(percent>=75):
@@ -8,4 +8,5 @@ if(percent>=75):
 else:
     print("Status:Not Eligible")
     remain=((75-percent)*Tot)/100
+
     print("additional classes required",remain)
